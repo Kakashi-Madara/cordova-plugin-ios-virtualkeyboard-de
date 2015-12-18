@@ -27,7 +27,7 @@ THE SOFTWARE.
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-ios-virtualkeyboard-de"
-    version="0.0.5">
+    version="0.0.6">
     <name>Virtualkeyboard deutsch (iOS)</name>
     <description>Virtualkeyboard deutsch (iOS)</description>
     <license>MIT</license>
@@ -39,7 +39,9 @@ THE SOFTWARE.
         </config-file>
 		
         <config-file target="*-Info.plist" parent="CFBundleLocalizations">
-			<string>de</string>
+			<array>
+				<string>de</string>
+			</array>
         </config-file>
 		
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
